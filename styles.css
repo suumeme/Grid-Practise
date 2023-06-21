@@ -1,0 +1,40 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#fff;
+}
+
+.container{
+    background-color:#fff;
+    grid-template-columns:25% 50% 25%;
+    display: grid;
+    margin: 0;
+    gap: 16px;
+    padding: 16px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+/*    min-height: 100vh;*/
+
+}
+.container >div{
+    background-color: rgb(200,200,200);
+    min-height: 100vh;
+
+}
+header{
+
+    background-color:rgb(200,200,200);
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+    font-size:larger;
+}
+footer{
+
+    background-color: rgb(200,200,200);
+    margin: 0;
+    text-align: center;
+    padding: 12px;
+    font-size: larger;
+
+}
